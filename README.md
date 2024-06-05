@@ -1,1 +1,1 @@
-# techtaskAuto
+# Automation task
