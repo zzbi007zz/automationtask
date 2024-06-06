@@ -13,11 +13,11 @@ exports.config = {
     }
   },
   include: {
-    I: './steps/LoginSteps.js'
+    I: './steps/*.js'
   },
   gherkin: {
     features: './features/*.feature',
-    steps: ['./step_definitions/login_steps.js']
+    steps: ['./steps/*.js']
   },
   bootstrap: null,
   mocha: {},
